@@ -1,0 +1,264 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background: #fff;
+  background-image: url(https://t3.ftcdn.net/jpg/02/21/71/74/240_F_221717487_0442Bs3THDo8rFNuhJm4zSsuEAez25bt.jpg);
+  background-attachment: fixed;
+  overflow-x: hidden;
+  /* padding-top: 7rem; */
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.nav {
+  font-family:"oxanium",cursive ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   align-items: center;
+  
+  width: 100vw;
+  padding-left: 12%;
+  padding-right: 10%;
+}
+
+
+ .nav-bar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height: 15vh;
+width: 100vw;
+background-color: #fff; 
+} 
+
+.logo {
+  color: aquamarine;
+}
+
+.toggle-btn{
+font-size: 50px;
+}
+
+.but {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 4rem;
+  border: 1px solid #4B7BE5;
+  border-radius: 0.25rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5rem 0;
+  /* margin-top: 2rem; */
+}
+
+.justino {
+  width: 30vw;
+  height: 80vh;
+   /* display: block;  */
+  border-radius: 0.5rem;
+}
+
+.hero-left {
+  width: 35vw;
+  margin-top: 2rem;
+}
+
+.greeting {
+  font-family: "oxanium",cursive;
+  font-weight: 900;
+  font-size: 30px;
+  color: grey;
+}
+
+.hero-title {
+  position: relative;
+  font-family: "oxanium", cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 5rem;
+  letter-spacing: 0px;
+  line-height: 100%;
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+  padding: 20px;
+}
+
+.sub-hero-tittle {
+  font-size: 1.127rem;
+  /* margin-top:2rem;  */
+  line-height: 1.5;
+}
+
+.tag-line {
+  height: 30vh;
+  font-family: monospace;
+  
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  font-family: 'oxanium', cursive;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 100%;
+  /* margin-left: 3.125rem; */
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  /* background: var(--color-drk-5); */
+  /* display: block;  */
+  /* object-fit: cover; */
+  /* position: absolute; */
+  width: 35%;
+  height: 100vh;
+  border-radius: 0.5rem;
+}
+
+.line {
+  border-top: 1px solid grey;
+  padding-top: 6rem;
+
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: 'oxanium', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 5rem;
+  letter-spacing: 0px;
+  line-height: 100%;
+  margin-bottom: 4rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+}
+
+.footer-text {
+  font-size: 1.129rem;
+  font-weight: 580;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  width: 45%;
+}
+
+.footer {
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  /* background-color: #4B7BE5; */
+}
+
+.outline {
+  font-weight: 800;
+  font-size: 1.5rem;
+  /* color: transparent; */
+  letter-spacing: 1px;
+  line-height: 100%;
+  cursor: pointer;
+  background-position: center bottom;
+  background-size: 100% 0%;
+  -webkit-text-stroke: 1px #4B7BE5;
+  -webkit-text-fill-color: transparent;
+  transition: .3s ease-in;
+
+}
+
+
+.footer-content {
+  padding-left: 10%;
+}
+
+.email-button-container {
+
+  padding-bottom: 5%;
+}
+
+.email-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 4rem;
+  border: 1px solid #4B7BE5;
+  border-radius: 0.25em;
+  font-size: 1.125rem;
+  font-weight: bold;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.sec-close-bracket {
+  display: block;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 100%;
+  color: grey;
+  margin-top: 6rem;
+  padding-left: 9rem;
+  margin-bottom: 5rem;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: var(--light-shadow);
+  
+}
