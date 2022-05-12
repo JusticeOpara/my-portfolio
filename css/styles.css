@@ -42,7 +42,7 @@ background-color: #fff;
 } 
 
 .logo {
-  color: aquamarine;
+  color: #000;
 }
 
 .toggle-btn{
@@ -115,7 +115,7 @@ font-size: 50px;
 }
 
 .sub-hero-tittle {
-  font-size: 1.127rem;
+  font-size: 1.128rem;
   /* margin-top:2rem;  */
   line-height: 1.5;
 }
