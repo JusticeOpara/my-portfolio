@@ -26,7 +26,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   width: 100vw;
   padding-left: 12%;
   padding-right: 10%;
@@ -45,6 +44,7 @@ body {
 
 .logo {
   color: #000;
+  font-size: 2rem;
 }
 
 .toggle-btn {
@@ -100,7 +100,7 @@ body {
 .greeting {
   font-family: "oxanium", cursive;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 50px;
   color: grey;
 }
 
@@ -108,17 +108,17 @@ body {
   position: relative;
   font-family: "oxanium", cursive;
   font-style: normal;
-  font-weight: 800;
-  font-size: 5rem;
+  font-weight: 900;
+  font-size: 10rem;
   letter-spacing: 0px;
   line-height: 100%;
   color: transparent;
   -webkit-text-stroke: 1px #000;
-  padding: 20px;
+   padding: 50px; 
 }
 
 .sub-hero-tittle {
-  font-size: 1.128rem;
+  font-size: 2rem;
   /* margin-top:2rem;  */
   line-height: 1.5;
 }
@@ -127,7 +127,7 @@ body {
   height: 30vh;
   font-family: monospace;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   font-weight: normal;
   display: flex;
   justify-content: center;
@@ -141,7 +141,7 @@ body {
   height: 180px;
   font-family: 'oxanium', cursive;
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   line-height: 100%;
   /* margin-left: 3.125rem; */
 }
@@ -176,7 +176,7 @@ body {
   font-family: 'oxanium', cursive;
   font-style: normal;
   font-weight: 800;
-  font-size: 5rem;
+  font-size: 8rem;
   letter-spacing: 0px;
   line-height: 100%;
   margin-bottom: 4rem;
@@ -185,7 +185,7 @@ body {
 }
 
 .footer-text {
-  font-size: 1.129rem;
+  font-size: 2rem;
   font-weight: 580;
   line-height: 1.5;
   margin-bottom: 3rem;
@@ -198,8 +198,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
+  font-size: 2rem;
 
 }
+
 
 .outline {
   font-weight: 800;
@@ -215,7 +217,9 @@ body {
   transition: .3s ease-in;
 
 }
-
+/* p{
+  font-size: 900px;
+} */
 
 .footer-content {
   padding-left: 10%;
