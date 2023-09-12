@@ -51,18 +51,22 @@ body {
   font-size: 50px;
 }
 .side-bar{
-width:150px;
+  padding: 12px;
+/* widthh: 10px; */
 display: flex;
 flex-direction: row;
+justify-content: center;
 align-items: center;
-gap: 8px;
+background: white;
+cursor: pointer;
 }
 
-.menu{
-  display: none;
- 
+.download-text{
+  font-size: bold;
+  font-weight: 700;
+ cursor: pointer;
 }
-.side-bar:hover .menu{
+.sdide-bar:hover .menu{
   display: block;
   color: #4B7BE5;
   font-size: 1.6rem;
